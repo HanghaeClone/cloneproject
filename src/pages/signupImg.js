@@ -38,12 +38,6 @@ function SignupImg() {
     });
   };
 
-  window.addEventListener("keyup", (e) => {
-    if (e.key === "Enter") {
-      signuptotalOnClick();
-    }
-  });
-
   const signuptotalOnClick = async () => {
     if (files === "" || null) {
       alert("사진을 올려주세요!");
